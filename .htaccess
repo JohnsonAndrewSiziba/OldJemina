@@ -1,0 +1,32 @@
+<IfModule mod_rewrite.c>
+	Options All -Indexes
+	Options +FollowSymLinks
+	RewriteEngine On
+	RewriteCond %{REQUEST_FILENAME} !-d
+	RewriteCond %{REQUEST_FILENAME} !-f
+
+	#RewriteBase /
+	#RewriteRule ^pricesheet/([^/]+)$ /site/price.php?id=$1 [L]
+	RewriteRule ^pricesheet(/?)$ /site/pricesheet.php [L]
+	RewriteRule ^services(/?)$ /site/service.php [L]
+	RewriteRule ^services/securities-trading(/?)$ /site/services_all.php?service=securities [L]
+	RewriteRule ^services/custodial-services(/?)$ /site/services_all.php?service=custodial [L]
+	RewriteRule ^services/advisory-services(/?)$ /site/services_all.php?service=advisory [L]
+	RewriteRule ^services/research-services(/?)$ /site/services_all.php?service=research [L]
+	RewriteRule ^services/direct-market-access(/?)$ /site/services_all.php?service=dma [L]
+	RewriteRule ^about-us(/?)$ /site/about.php?page=$1 [L]
+	RewriteRule ^companies(/?)$ /site/companies.php [L]
+	RewriteRule ^reports(/?)$ /site/all_reports.php [L]
+	RewriteRule ^reports/daily-reports(/?)$ /site/daily_reports.php [L]
+	RewriteRule ^reports/weekly-reports(/?)$ /site/weekly_reports.php [L]
+	#RewriteRule ^company/([a-zA-Z-]+)/([0-9]+)/?$ /site/company_details.php?company=$1 [L,QSA]
+	RewriteRule ^company/([a-zA-Z_-]+)/([0-9]+)(/?)$ /site/company_details.php?company=$2 [L]
+	RewriteRule ^etf/([a-zA-Z_-]+)/([0-9]+)(/?)$ /site/etfs_details.php?company=$2 [L]
+	RewriteRule ^vfex/([a-zA-Z_-]+)/([0-9]+)(/?)$ /site/vfex_details.php?company=$2 [L]
+	RewriteRule ^([a-zA-Z_-]+)/([0-9-]+)/([0-9]+)(/?)$ /site/view_report.php?report=$3 [L]
+	#RewriteRule ^company/company_name/[0-9]+/$ /site/companies_details.php?company=$1 [L]
+	RewriteRule ^about-jemina/executive-team(/?)$ /site/executive_team.php?page=$1 [L]
+	RewriteRule ^about-jemina/our-team(/?)$ /site/our_team.php?page=$1 [L]
+	RewriteRule ^about-jemina/who-we-are(/?)$ /site/about.php?page=$1 [L]
+	RewriteRule ^contact-us(/?)$ /site/contact.php?page=$1 [L]
+</IfModule>

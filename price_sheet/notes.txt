@@ -1,0 +1,37 @@
+Top 5 featured companies on companies list page. Selected at random.
+
+For each company, show the sector composition.
+
+Backend
+# Reports
+    - After adding or editing report, show pop up to view.
+    - Add report editing functionality.
+    - Reports add checkbox to show report. Toggle.
+    - Something to show whether report is displayed on website or not. On reports list.
+
+    - Frontend. Fix whitespace between banner and report title.
+
+
+
+Priority frontend
+# Sector Composition
+
+
+## DON'T WORK ON NEW FUNCTIONALITY (NEW PAGES) UNTIL THE SITE IS LAUNCHED. 
+##
+
+
+* On side menu of companies, add buy/sell calculator
+* Ranking by sector market Cap.
+* Ranking by entire ZSE market cap.
+* Ranking by returns of a given period.
+* Plot ranking chart by period 
+
+
+* On gold side menu widget, put financial ratios for company
+
+
+
+
+# sector composition
+Open by default

@@ -1,0 +1,1 @@
+[29-Oct-2021 13:11:33 UTC] PHP Fatal error:  Out of memory (allocated 364912640) (tried to allocate 8388608 bytes) in phar:///opt/cpanel/composer/bin/composer/src/Composer/DependencyResolver/Solver.php on line 202

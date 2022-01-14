@@ -1,0 +1,12 @@
+.clear-js {
+    clear: both;
+}
+
+.wgs-box.wgs-menus ul.list-grouped > li.list-heading span {
+    padding: 0 !important;
+}
+
+.sector_company_summary em {
+    font-size: 10px;
+    font-style: italic;
+}

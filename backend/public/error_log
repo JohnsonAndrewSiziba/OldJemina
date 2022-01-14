@@ -1,0 +1,12 @@
+[02-Nov-2021 18:42:27 UTC] PHP Fatal error:  Cannot declare class App\Http\Controllers\DailyReportsAPIController, because the name is already in use in /home1/jeminrai/public_html/site/backend/app/Http/Controllers/WeeklyReportsAPIController.php on line 8
+[03-Nov-2021 13:22:40 UTC] Could not send email
+[03-Nov-2021 13:29:41 UTC] Could not send email
+[08-Nov-2021 12:53:33 UTC] Could not send email
+[08-Nov-2021 12:55:57 UTC] Could not send email
+[08-Nov-2021 13:26:11 UTC] Could not send email
+[08-Nov-2021 13:27:14 UTC] Could not send email
+[08-Nov-2021 13:38:51 UTC] Could not send email
+[08-Nov-2021 13:41:23 UTC] Could not send email
+[12-Nov-2021 10:08:55 UTC] Could not send email
+[12-Nov-2021 10:09:52 UTC] Could not send email
+[12-Nov-2021 10:12:19 UTC] Could not send email
